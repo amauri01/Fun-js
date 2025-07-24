@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: monospace;
+  color: white;
+  text-align: center;
+}
+h1 {
+  margin-top: 10px;
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff;
+}
+canvas {
+  background: url('img/fondo.jpg') no-repeat center center;
+  background-size: cover;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid white;
+  box-shadow: 0 0 15px white;
+}
+#winner, #gameover {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 10px;
+  animation: flash 1s infinite;
+}
+#winner {
+  color: #0f0;
+}
+#gameover {
+  color: red;
+}
+.oculto {
+  display: none;
+}
+@keyframes flash {
+  0%   { opacity: 0.2; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.2; }
+}
