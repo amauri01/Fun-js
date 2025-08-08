@@ -1,0 +1,22 @@
+.parrafo {
+    color :rgb(10, 5, 122);
+    font-size: 40px;
+}
+
+/*llamar un id*/
+#parrafo {
+    color:blueviolet;
+    font-size: 50px; /* aumento el tamaño de la fuente */
+}
+
+/* selectores multiples*/
+.contenedor p,h2 {
+    color:chartreuse;
+    font-size: 50px;
+}
+
+button:hover {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+} 
